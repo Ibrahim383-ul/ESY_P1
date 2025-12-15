@@ -1,3 +1,9 @@
+// TODO Fileheader fehlt
+// TODO Flussdiagramm fehlt
+// Kein separates Unterverzeichnis benötigt - habe ich bereits entfernt - befindet sich jetzt im Hauptverzeichnis des Repos
+// TODO Die Readme hat mich ein wenig verwirrt - Sie verwenden einen Arduino Nano?
+// Freue mich schon auf die Livedemo!
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Servo.h>
@@ -8,8 +14,8 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 Servo myServo;
 
-int servoPin = 7;
-int piezopin = 6;
+const int servoPin = 7;	// TODO bei PINs sollte es eine const Variable sein oder ein #define
+const int piezopin = 6;
 
 // Erlaubte RFID-Karte
 byte allowedUID[4] = {0x33, 0xDF, 0x6D, 0xE2};
