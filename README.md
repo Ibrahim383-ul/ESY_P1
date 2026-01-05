@@ -46,7 +46,7 @@ Build und Ausführung
 
 Ich verwende PlatformIO für dieses Projekt, daher muss es vorher installiert sein.
 
-Öffne anschließend das Projekt und verbinde deinen Arduino Nano. Danach solltest du einfach auf Build und Run klicken können.
+Öffne anschließend das Projekt und verbinde deinen Arduino. Danach solltest du einfach auf Build und Run klicken können.
 
 
 
